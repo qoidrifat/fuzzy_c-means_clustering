@@ -4,12 +4,11 @@ import pandas as pd
 import numpy as np
 import joblib
 import matplotlib.pyplot as plt
-import seaborn as seaborn
 from sklearn.preprocessing import StandardScaler
 import skfuzzy as fuzz
 
 # Set style untuk plot
-plt.style.use("seaborn")
+plt.style.use("ggplot")
 
 # 1. Header Aplikasi
 st.title("Clustering Deployment with Fuzzy C-Means")
